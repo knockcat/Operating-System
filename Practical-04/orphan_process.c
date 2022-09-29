@@ -16,15 +16,15 @@ int main()
 
     if (pid > 0)
     {
-        printf("\nThis is Parent Process\n");
+        sleep(10);
+        printf("\nThis is Parent Proces \n");
         printf("PID : %d\n", getpid());
-        exit(0);
     }
     else
     {
-        sleep(10);
-        printf("\nThis is Child Process\n");
+        printf("\nThis is Child Process \n");
         printf("PID : %d\n", getpid());
+        exit(0);
     }
     return 0;
 }
