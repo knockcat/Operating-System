@@ -26,7 +26,7 @@ int main()
     printf("Enter the position of head: ");
     scanf("%d", &head);
 
-    printf("The FCFS Sequence is : ");
+    printf("The FCFS Sequence is :  ");
     for (int i = 0; i < n; i++)
     {
         printf("%d ", seq[i]);
